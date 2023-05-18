@@ -9,3 +9,17 @@
 
 # Undo-tree save-files
 *.~undo-tree
+
+# Emacs used files
+autosave/
+auto-save-list/
+backup/
+bookmarks
+.cache/
+custom.el
+elpa
+.org-id-locations
+org-roam.db
+projectile-bookmarks.eld
+recentf
+transient/
