@@ -12,6 +12,9 @@
 ;; debug
 (setq debug-on-error t)
 
+;; enable SPC inside minibuffer
+(define-key minibuffer-local-completion-map (kbd "SPC") 'self-insert-command)
+
 ;; directories
 (defvar user-cache-directory (expand-file-name ".cache" user-emacs-directory))
 (defvar user-backup-directory (expand-file-name "backup" user-emacs-directory))
