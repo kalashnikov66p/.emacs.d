@@ -262,11 +262,6 @@
   :ensure t
   :after (treemacs magit))
 
-;; treemacs-icons-dired package
-(use-package treemacs-icons-dired
-  :ensure t
-  :hook (dired-mode . treemacs-icons-dired-enable-mode))
-
 ;; which-key package
 (use-package which-key
   :ensure t
